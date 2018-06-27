@@ -65,7 +65,9 @@ const guestbook = {
       $('#name').val().trim(),
       $('#rate').val().trim(),
       $('#body').val().trim(),
-      $('#main_tone').val().trim()
+      $('#main_tone').val().trim(),
+      $('#origin_lan').val().trim(),
+      $('#origin').val().trim()
     ).done(function(result) {
       // reload entries
       loadEntries();
